@@ -1,0 +1,29 @@
+[
+{
+  "model": "store.categorymodel",
+  "pk": 1,
+  "fields": {
+    "name": "Одежды",
+    "slug": "clothes",
+    "description": "Одежда не только украсит ваш вид, но и даёт своеобразную ауру и отражает ваш характер"
+  }
+},
+{
+  "model": "store.categorymodel",
+  "pk": 2,
+  "fields": {
+    "name": "Обуви",
+    "slug": "shoes",
+    "description": "Обуви — главное дополнение к вашему стилю"
+  }
+},
+{
+  "model": "store.categorymodel",
+  "pk": 3,
+  "fields": {
+    "name": "Аксессуары",
+    "slug": "accessories",
+    "description": "Аксессуары такие как очки, сумки, часы и тд, являются важной изюминкой стиля"
+  }
+}
+]

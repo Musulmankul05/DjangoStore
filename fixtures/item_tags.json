@@ -1,0 +1,34 @@
+[
+{
+  "model": "store.tagmodel",
+  "pk": 1,
+  "fields": {
+    "tag": "Женские одежды",
+    "slug": "female"
+  }
+},
+{
+  "model": "store.tagmodel",
+  "pk": 2,
+  "fields": {
+    "tag": "Мужские одежды",
+    "slug": "male"
+  }
+},
+{
+  "model": "store.tagmodel",
+  "pk": 3,
+  "fields": {
+    "tag": "Унисекс одежды",
+    "slug": "unisex"
+  }
+},
+{
+  "model": "store.tagmodel",
+  "pk": 4,
+  "fields": {
+    "tag": "#втренде",
+    "slug": "trending"
+  }
+}
+]

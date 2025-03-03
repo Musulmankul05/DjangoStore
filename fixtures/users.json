@@ -1,0 +1,90 @@
+[
+{
+  "model": "users.usermodel",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$orxVDYG4Jh8mnzZDRV8KVY$wcPTIK9ZVOg5L9XedxaMh6+jSwogNeQ22+vZ04MMGWw=",
+    "last_login": "2024-07-21T07:52:23.044Z",
+    "is_superuser": true,
+    "username": "Musulmankul",
+    "first_name": "Мусулманкул",
+    "last_name": "Мамадиев",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-06-18T15:57:44.976Z",
+    "image": "",
+    "email": "musulmankul05@icloud.com",
+    "email_verified": true,
+    "date_birth": null,
+    "last_edited": "2024-06-30T08:21:17.752Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.usermodel",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$Kgbb3SlMbZxPUufDiOjrRb$P2Tzk2VY8BnSSGQtNPFCYQ20afO6CRWExn8rtQcgdSw=",
+    "last_login": "2024-06-27T09:11:04.329Z",
+    "is_superuser": false,
+    "username": "isxak",
+    "first_name": "Исхак",
+    "last_name": "Мамадиев",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-23T11:42:38.497Z",
+    "image": "users/isxak/profile.jpg",
+    "email": "isxakmamadiev@icloud.com",
+    "email_verified": false,
+    "date_birth": "2000-08-30",
+    "last_edited": "2024-06-24T10:07:33.850Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.usermodel",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$ittflBzRYxNWoDRXCVASMC$pAQUWh2FfbUX85rgyM2AbdGuRHn1Yh6aaIAK/gr+C88=",
+    "last_login": "2024-07-30T14:11:06.672Z",
+    "is_superuser": false,
+    "username": "Musulmankul2",
+    "first_name": "Мусулманкул",
+    "last_name": "Мамадиев",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-29T17:57:33.476Z",
+    "image": "users/Musulmankul2/profile.jpg",
+    "email": "musulmankul05@gmail.com",
+    "email_verified": true,
+    "date_birth": "2005-06-16",
+    "last_edited": "2024-07-02T13:49:52.299Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.usermodel",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$4mJkcuZjE3BBDRc8NkiLLG$5iQtDn8ilNFO1uLJhYn4MY3bubVR3P9Xmtk6xF4w0H0=",
+    "last_login": "2024-07-03T07:27:38.276Z",
+    "is_superuser": false,
+    "username": "noname",
+    "first_name": "Нет",
+    "last_name": "Имени",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-07-02T13:51:37.117Z",
+    "image": "",
+    "email": "musulmankulmamadiev@gmail.com",
+    "email_verified": false,
+    "date_birth": "2005-06-16",
+    "last_edited": "2024-07-02T15:11:32.027Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

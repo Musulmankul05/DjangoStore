@@ -1,0 +1,44 @@
+[
+{
+  "model": "users.usermodel",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$orxVDYG4Jh8mnzZDRV8KVY$wcPTIK9ZVOg5L9XedxaMh6+jSwogNeQ22+vZ04MMGWw=",
+    "last_login": "2024-06-24T08:11:48.517Z",
+    "is_superuser": true,
+    "username": "Musulmankul",
+    "first_name": "Мусулманкул",
+    "last_name": "Мамадиев",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-06-18T15:57:44.976Z",
+    "image": "",
+    "email": "musulmankul05@icloud.com",
+    "date_birth": null,
+    "last_edited": "2024-06-23T11:50:43.881Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.usermodel",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$Kgbb3SlMbZxPUufDiOjrRb$P2Tzk2VY8BnSSGQtNPFCYQ20afO6CRWExn8rtQcgdSw=",
+    "last_login": "2024-06-24T09:02:28.007Z",
+    "is_superuser": false,
+    "username": "isxak",
+    "first_name": "Исхак",
+    "last_name": "Мамадиев",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-23T11:42:38.497Z",
+    "image": "users/isxak/profile.jpg",
+    "email": "isxakmamadiev@icloud.com",
+    "date_birth": "2000-08-30",
+    "last_edited": "2024-06-24T10:07:33.850Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

@@ -1,0 +1,84 @@
+{% load widget_tweaks %}
+{% load static tailwind_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    {% tailwind_css %}
+</head>
+<body class="font-inter bg-gray-100">
+<header class="bg-gradient-to-r from-cyan-400 to-blue-600 shadow-md">
+    <div class="container mx-auto px-2 py-2 flex justify-between items-center">
+        <div class="flex">
+            <span class="material-symbols-rounded text-white pointer-events-none">checkroom</span>
+            <div class="text-2xl font-bold text-white pointer-events-none">ZIPPLE</div>
+        </div>
+        <nav class="space-x-16 flex items-center">
+            <a href="{% url 'store:catalog' %}"
+               class="text-white duration-200 transition-colors ease-linear hover:text-gray-300">Каталог</a>
+            <a href="{% url 'store:categories' %}"
+               class="text-white duration-200 transition-colors ease-linear hover:text-gray-300">Категории</a>
+            <a href="{% url 'store:cart' %}" class="text-white duration-200 transition-colors ease-linear hover:text-gray-300">Корзина</a>
+            <a href="{% url 'users:login' %}" class="bg-[#35548d] drop-shadow-sm text-white px-4 py-2 rounded-lg duration-300
+            transition-colors ease-linear font-bold hover:bg-[#333855]">Войти</a>
+        </nav>
+    </div>
+</header>
+<div class="flex items-center justify-center mt-40">
+    <div class="w-full max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="px-6 py-4">
+            <h2 class="text-center text-2xl font-bold text-gray-700">Авторизация</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="mt-4 flex space-x-4">
+                    <div class="w-1/2">
+                        <label class="block text-gray-700">Имя</label>
+                        {{ form.first_name|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                    </div>
+                    <div class="w-1/2">
+                        <label class="block text-gray-700">Фамилия</label>
+                        {{ form.last_name|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label class="block text-gray-700">Имя пользователя</label>
+                    {{ form.username|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                </div>
+                <div class="mt-4 flex space-x-4">
+                    <div class="w-2/3">
+                        <label class="block text-gray-700">Электронная почта</label>
+                        {{ form.email|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                    </div>
+                    <div class="w-1/3">
+                        <label class="block text-gray-700">Дата рождения</label>
+                        {{ form.date_birth|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label class="block text-gray-700">Пароль</label>
+                    {{ form.password1|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                </div>
+                <div class="mt-4">
+                    <label class="block text-gray-700">Подтверждение пароля</label>
+                    {{ form.password2|add_class:"w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700 focus:border-transparent" }}
+                </div>
+                <div class="mt-6">
+                    <button type="submit"
+                            class="w-full px-4 py-2 text-white bg-blue-700 rounded-lg transition duration-200 ease-linear hover:bg-blue-800 focus:outline-none focus:bg-blue-800">
+                        Зарегистрироваться
+                    </button>
+                </div>
+            </form>
+            <div class="mt-6 text-center">
+                <p class="text-sm text-gray-600">Есть аккаунт на ZIPPLE? <a href="{% url 'users:login' %}"
+                                                                            class="text-blue-700 hover:underline ">Авторизоваться</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

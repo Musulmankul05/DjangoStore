@@ -1,0 +1,326 @@
+[
+{
+  "model": "store.itemmodel",
+  "pk": 1,
+  "fields": {
+    "name": "Тёмно-синее поло Lacoste",
+    "price": "8950.00",
+    "quantity": 200,
+    "description": "",
+    "category": 1,
+    "image": "items/lacoste_polo_01.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 2,
+  "fields": {
+    "name": "Куртка чёрная Burberry",
+    "price": "85000.00",
+    "quantity": 109,
+    "description": "",
+    "category": 1,
+    "image": "items/burberry_jacket_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 3,
+  "fields": {
+    "name": "Худи Nike Vintage",
+    "price": "23000.00",
+    "quantity": 70,
+    "description": "Винтажный стиль всегда в моде, особенно спортивные винтажки!",
+    "category": 1,
+    "image": "items/nike_hoodie_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 4,
+  "fields": {
+    "name": "Брюки с высоким поясом Hermes",
+    "price": "9000.00",
+    "quantity": 120,
+    "description": "Итальянские брюки олицетворяет настоящую мужскую красоту и силу",
+    "category": 1,
+    "image": "items/hermes_pants_1.webp",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 5,
+  "fields": {
+    "name": "Бежёвый свитер Ralph Lauren",
+    "price": "13000.00",
+    "quantity": 98,
+    "description": "",
+    "category": 1,
+    "image": "items/rl_sweater_01.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 6,
+  "fields": {
+    "name": "Вязанное поло футболка Zara",
+    "price": "3500.00",
+    "quantity": 237,
+    "description": "",
+    "category": 1,
+    "image": "items/zara_knitpolo_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 7,
+  "fields": {
+    "name": "Джемпер Tom Ford",
+    "price": "16490.00",
+    "quantity": 76,
+    "description": "",
+    "category": 1,
+    "image": "items/tomford_halfzip_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 8,
+  "fields": {
+    "name": "Свитер Tommy Hilfiger",
+    "price": "14000.00",
+    "quantity": 56,
+    "description": "",
+    "category": 1,
+    "image": "items/th_sweater_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 9,
+  "fields": {
+    "name": "Брюки чёрные Karl Lagerfeld",
+    "price": "11990.00",
+    "quantity": 67,
+    "description": "",
+    "category": 1,
+    "image": "items/lagerfeld_pants_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 10,
+  "fields": {
+    "name": "Кроссовки Nike Runtekk",
+    "price": "13490.00",
+    "quantity": 175,
+    "description": "",
+    "category": 2,
+    "image": "items/nike_runtekk_1.jpg",
+    "tags": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 11,
+  "fields": {
+    "name": "Белые кеды Lacoste",
+    "price": "8900.00",
+    "quantity": 114,
+    "description": "",
+    "category": 1,
+    "image": "items/lacoste_sneakers_1.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 12,
+  "fields": {
+    "name": "Ветровка Nike Vintage",
+    "price": "24000.00",
+    "quantity": 24,
+    "description": "",
+    "category": 1,
+    "image": "items/nike_vintage.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 13,
+  "fields": {
+    "name": "Бежёвые брюки Ralph Lauren",
+    "price": "12000.00",
+    "quantity": 84,
+    "description": "",
+    "category": 1,
+    "image": "items/beige_pants.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 14,
+  "fields": {
+    "name": "Кожаная куртка BOSS",
+    "price": "75000.00",
+    "quantity": 0,
+    "description": "",
+    "category": 1,
+    "image": "items/black_jacket.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 15,
+  "fields": {
+    "name": "Чёрное поло Lacoste",
+    "price": "7500.00",
+    "quantity": 34,
+    "description": "",
+    "category": 1,
+    "image": "items/black_polo_lacoste.jpg",
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 16,
+  "fields": {
+    "name": "Тёмно-зелёные лоферы Prada",
+    "price": "65490.00",
+    "quantity": 56,
+    "description": "",
+    "category": 2,
+    "image": "items/olive_loafers.jpg",
+    "tags": []
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 17,
+  "fields": {
+    "name": "Белое поло Ralph Lauren",
+    "price": "8000.00",
+    "quantity": 563,
+    "description": "",
+    "category": 1,
+    "image": "items/white_polo_ralph_lauren.jpg",
+    "tags": []
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 18,
+  "fields": {
+    "name": "Casio a168",
+    "price": "4400.00",
+    "quantity": 430,
+    "description": "",
+    "category": 3,
+    "image": "items/Relógio_masculino_Casio_A168WEGG-1BEF_Preto_Prateado_Ø_36_mm_Ø_38_mm.jpeg",
+    "tags": []
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 19,
+  "fields": {
+    "name": "Seiko Essentials",
+    "price": "8900.00",
+    "quantity": 210,
+    "description": "",
+    "category": 3,
+    "image": "items/Seiko_Watch_Essentials_Watch_18_9mm_Jewelry__Accessories_-_Bloomingdales.jpeg",
+    "tags": []
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 20,
+  "fields": {
+    "name": "Джинсы-клеш Tommy Jeans",
+    "price": "9500.00",
+    "quantity": 98,
+    "description": "",
+    "category": 1,
+    "image": "items/8c7f9575-a1db-418c-a25e-f3a956213a22.jpeg",
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 21,
+  "fields": {
+    "name": "Чёрные брюки-клеш Pull&Bear",
+    "price": "6000.00",
+    "quantity": 112,
+    "description": "",
+    "category": 1,
+    "image": "items/c2d3324b-4617-43b1-b2b2-c439f95a61ae.jpeg",
+    "tags": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "store.itemmodel",
+  "pk": 22,
+  "fields": {
+    "name": "Ботинки Balenciaga",
+    "price": "59990.00",
+    "quantity": 54,
+    "description": "",
+    "category": 2,
+    "image": "items/a8a5b095-c403-4ee9-9ec3-5304bf6c515d.jpeg",
+    "tags": [
+      1
+    ]
+  }
+}
+]

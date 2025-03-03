@@ -1,0 +1,24 @@
+CREATE DATABASE mydatabase;
+CREATE USER myuser WITH PASSWORD 'mypassword';
+ALTER ROLE myuser SET client_encoding TO 'utf8';
+ALTER ROLE myuser SET default_transaction_isolation TO 'read committed';
+ALTER ROLE myuser SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
+ALTER DATABASE mydatabase OWNER TO myuser;
+
+
+// settings.py:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+
+
+// terminal commands for dumping data to json file:
+python -Xutf8 manage.py dumpdata myApp.MyModel --output mydata.json --indent 2
